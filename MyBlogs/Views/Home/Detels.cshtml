@@ -1,0 +1,17 @@
+﻿<h1>
+    @ViewData["title"]
+</h1>
+
+<h3>
+    @{
+        var staff = ViewData["staff"] as Staff;
+    }
+    <div>
+        <h2>
+            Name: @staff.FirstName @staff.LastName
+        </h2>
+    </div>
+    <div>
+        Department: @staff.Department
+    </div>
+</h3>

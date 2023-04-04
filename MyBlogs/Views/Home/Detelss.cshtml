@@ -1,0 +1,15 @@
+﻿@model Staff
+@{
+    Layout = "../Shared/_Layout.cshtml";
+    ViewBag.Title = "Staff detalss";
+}
+<h3>
+    <div>
+        <h2>
+            Name: @Model.FirstName @Model.LastName
+        </h2>
+    </div>
+    <div>
+        Department: @Model.Department
+    </div>
+</h3>
