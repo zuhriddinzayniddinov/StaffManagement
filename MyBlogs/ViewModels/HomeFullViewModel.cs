@@ -1,6 +1,6 @@
-﻿using MyBlogs.Models;
+﻿using StaffManagment.Models;
 
-namespace MyBlogs.ViewModels
+namespace StaffManagment.ViewModels
 {
     public class HomeFullViewModel
     {
